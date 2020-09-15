@@ -38,7 +38,7 @@
                 </transition>
                 <router-link
                     to="/"
-                    class="flex items-center px-3 py-2 bg-indigo-600 text-gray-200 font-semibold rounded-xl justify-between hover:bg-indigo-800 transition-all ease-in-out duration-300"
+                    class="flex items-center px-3 py-2 bg-indigo-600 text-gray-200 no-underline font-semibold rounded-xl justify-between hover:bg-indigo-800 transition-all ease-in-out duration-300"
                 >
                     <svg
                         viewBox="0 0 20 20"
