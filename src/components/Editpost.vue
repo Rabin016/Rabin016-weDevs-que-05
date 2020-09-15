@@ -138,7 +138,6 @@ export default {
                     );
                     newAllPosts.unshift(this.newPost);
                     localStorage.allPosts = JSON.stringify(newAllPosts);
-                    console.log(newAllPosts);
                     this.$emit("postAlart", { sucMsg: "Post Updated!" });
                     this.closeModal();
                 } else {
